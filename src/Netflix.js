@@ -11,7 +11,7 @@ const Netflix = (props) => {
             <div className="card__info">
               <span className="card__category"> A Netflix Orginal Series </span>
               <h3 className="card__title"> {props.title} </h3>
-              <a href={props.download} target="_blank">
+              <a href={props.download}>
                 <button> Watch Now</button>
               </a>
             </div>
